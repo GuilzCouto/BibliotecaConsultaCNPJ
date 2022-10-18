@@ -78,9 +78,9 @@ namespace DllConsultaCNPJ
     public class ConsultaCNPJReceita
     {
         static private readonly CookieContainer _cookies = new CookieContainer();
-        static private String urlBaseReceitaFederal = "http://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/";
+        static private String urlBaseReceitaFederal = "https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/";
         static private String paginaValidacao = "valida.asp";
-        static private String paginaPrincipal = "cnpjreva_solicitacao.asp";
+        static private String paginaPrincipal = "Cnpjreva_Solicitacao_CS.asp";
         static private String paginaCaptcha = "captcha/gerarCaptcha.asp";
         static private String paginaHTML = "";
         //metodo para capturar a imagem do site
